@@ -51,15 +51,6 @@ footer a:hover {
 	color: #3248d9;
 }
 
-footer {
-	text-align: right;
-	background-color: #080A0B;
-}
-
-footer a {
-	color: #fff;
-}
-
 h1 {
 	font-size: 80px;
 	color: #fff;
@@ -147,6 +138,15 @@ h2 + h4 {
 
 .showreel h2,
 .showreel p {
+	color: #fff;
+}
+
+footer {
+	text-align: right;
+	background-color: #080A0B;
+}
+
+footer a {
 	color: #fff;
 }
 
