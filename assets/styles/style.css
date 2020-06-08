@@ -1,0 +1,185 @@
+/* #eb633d */
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
+	margin: 0;
+	padding: 0;
+	color: #080A0B;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h5 {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+section {
+	min-height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	height: 60px;
+	text-align: right;
+	background-color: #fff;
+	margin-bottom: 200px;
+}
+
+header a,
+footer a {
+	margin-left: 15px;
+	line-height: 60px;
+	transition: color .2s;
+}
+
+header a:hover,
+footer a:hover {
+	color: #3248d9;
+}
+
+footer {
+	text-align: right;
+	background-color: #080A0B;
+}
+
+footer a {
+	color: #fff;
+}
+
+h1 {
+	font-size: 80px;
+	color: #fff;
+}
+
+h2 {
+	font-size: 60px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+.hero__content h4 {
+	color: #fff;
+}
+
+.hero__content {
+	width: auto;
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.hero {
+	background-image: url(../img/hero_bg.jpg);
+}
+
+.button {
+	display: inline-block;
+	background-color: #eb633d;
+	padding: 10px 15px;
+	color: #fff;
+	line-height: 1;
+	transition: background-color .2s;
+}
+
+.button:hover {
+	background-color: #ff734d;
+	color: #fff;
+}
+
+article {
+	display: inline-block;
+	text-align: center;
+	width: 304px;
+	margin-right: 41px;
+}
+
+article:last-child {
+	margin-right: 0;
+}
+
+
+article img {
+	width: 100px;
+}
+
+h5 {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+article p {
+	padding: 0 40px;
+}
+
+h2 + h4 {
+	margin-bottom: 40px;
+}
+
+.services {
+	padding-top: 200px;
+}
+
+.showreel {
+	padding-top: 30px;
+	background-color: #080A0B;
+	text-align: center;
+}
+
+.showreel h2,
+.showreel p {
+	color: #fff;
+}
+
+.footer__year {
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+	margin-bottom: 0;
+}
+
+.contacts {
+	padding-top: 50px;
+	background-image: url('../img/contacts_bg.jpg');
+}
+
+.contacts h2,
+.contacts h5,
+.contacts h4 {
+	color: #fff;
+}
+
+.contacts h5 {
+	margin-bottom: 0;
+}
+
+.contacts__link {
+	display: inline-block;
+	margin-bottom: 30px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.map {
+	display: block;
+	margin: 40px auto 0;
+}
