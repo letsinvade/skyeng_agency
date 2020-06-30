@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, p, ul {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+section {
+	min-height: 100vh;
+	background-size: cover;
+}
+
+header, footer {
+	text-align: right;
+	height: 60px;
+}
+
+header {
+	background-color: #fff;
+	margin-bottom: 200px;
+}
+
+footer {
+	background-color: #000;
+	height: auto;
+}
+
+a {
+	color: #080A0B;
+	text-decoration: none;
+}
+
+header a,
+footer a {
+	margin-left: 15px;
+	line-height: 60px;
+	transition: color .2s;
+}
+
+header a:hover,
+footer a:hover {
+	color: #3248d9;
+}
+
+footer a {
+	color: #fff;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 60px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h2 + h4 {
+	margin-bottom: 40px;
+}
+
+p {
+	font-size: 14px;
+}
+
+h2 + p {
+	margin-bottom: 20px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #eb633d;
+	color: #fff;
+	padding: 10px 15px;
+	line-height: 1;
+	transition: .2s;
+}
+
+.button:hover {
+	background-color: #ff734d;
+	color: #fff;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.hero {
+	background-image: url("img/hero_bg.jpg");
+}
+
+.hero .content {
+	color: white;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .3);
+	padding: 20px;
+}
+
+.services {
+	padding-top: 200px;
+}
+
+.service {
+	display: inline-block;
+	width: 304px;
+	margin-right: 41px;
+	text-align: center;
+}
+
+.service img {
+	width: 100px;
+}
+
+.service h5 {
+	margin-bottom: 20px;
+}
+
+.service p {
+	padding: 0 40px;
+	margin-bottom: 20px;
+}
+
+.service:last-child {
+	margin-right: 0;
+}
+
+.showreel {
+	padding-top: 30px;
+	text-align: center;
+	color: #fff;
+	background-color: #000;
+}
+
+.contacts {
+	padding-top: 50px;
+	background-image: url("img/contacts_bg.jpg");
+	color: #fff;
+}
+
+.contacts a {
+	display: inline-block;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.contacts iframe {
+	display: block;
+	margin: 40px auto 0;
+}
+
+.year {
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
